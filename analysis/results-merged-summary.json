@@ -1,0 +1,1521 @@
+{
+ "providers": [
+  "anthropic"
+ ],
+ "cells": {
+  "anthropic|A_primary|ACORP|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.21666666666666665,
+   "protect_ci": [
+    0.11666666666666665,
+    0.31666666666666665
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.25,
+   "accepted_payment_rate": 0.75,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.6,
+   "comply_missing": 0,
+   "mean_R_at_order": 265.625,
+   "defections_per_ep": 0.35,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 241,
+   "social_cost_per_ep": 95.0,
+   "cost_usd": 6.084939
+  },
+  "anthropic|A_primary|ACORP|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.9833333333333333,
+   "accepted_payment_rate": 0.016666666666666666,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 835.9375,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 139.0,
+   "cost_usd": 3.630848
+  },
+  "anthropic|A_primary|AUTO|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9166666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 968.75,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 155.0,
+   "cost_usd": 3.915562
+  },
+  "anthropic|A_primary|AUTO|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.8666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 155.0,
+   "cost_usd": 2.431904
+  },
+  "anthropic|A_primary|BOUNTY1|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.21666666666666665,
+   "protect_ci": [
+    0.1,
+    0.36666666666666664
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.23333333333333334,
+   "accepted_payment_rate": 0.7666666666666667,
+   "insider_filing_rate": 0.23333333333333334,
+   "insider_decisions_valid": 60,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.4,
+   "comply_missing": 0,
+   "mean_R_at_order": 290.0390625,
+   "defections_per_ep": 0.7,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 200,
+   "social_cost_per_ep": 115.0,
+   "cost_usd": 6.07751
+  },
+  "anthropic|A_primary|BOUNTY1|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": 1.0,
+   "insider_decisions_valid": 60,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 200,
+   "social_cost_per_ep": 230.0,
+   "cost_usd": 2.6749490000000002
+  },
+  "anthropic|A_primary|BOUNTY2|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.3833333333333333,
+   "protect_ci": [
+    0.3,
+    0.4666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.48333333333333334,
+   "accepted_payment_rate": 0.95,
+   "insider_filing_rate": 0.26666666666666666,
+   "insider_decisions_valid": 120,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.75,
+   "comply_missing": 0,
+   "mean_R_at_order": 339.84375,
+   "defections_per_ep": 0.4,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 260,
+   "social_cost_per_ep": 152.5,
+   "cost_usd": 11.626422999999999
+  },
+  "anthropic|A_primary|BOUNTY2|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.75,
+   "protect_ci": [
+    0.65,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.9833333333333333,
+   "accepted_payment_rate": 0.16666666666666666,
+   "insider_filing_rate": 0.9083333333333333,
+   "insider_decisions_valid": 120,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 828.125,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 260,
+   "social_cost_per_ep": 227.5,
+   "cost_usd": 7.401344
+  },
+  "anthropic|A_primary|CAPTURABLE|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.35,
+   "protect_ci": [
+    0.2333333333333333,
+    0.4666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.4166666666666667,
+   "accepted_payment_rate": 0.5833333333333334,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.75,
+   "comply_missing": 0,
+   "mean_R_at_order": 355.46875,
+   "defections_per_ep": 0.35,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 251,
+   "social_cost_per_ep": 105.0,
+   "cost_usd": "NA"
+  },
+  "anthropic|A_primary|CAPTURABLE|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7333333333333333,
+   "protect_ci": [
+    0.65,
+    0.8166666666666667
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.9666666666666667,
+   "accepted_payment_rate": 0.03333333333333333,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 781.25,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 138.0,
+   "cost_usd": 3.687238
+  },
+  "anthropic|A_primary|ESCROW|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.0,
+   "protect_ci": [
+    0.0,
+    0.0
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.1,
+   "comply_missing": 0,
+   "mean_R_at_order": 133.7890625,
+   "defections_per_ep": 0.8,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 80.0,
+   "cost_usd": 4.235829
+  },
+  "anthropic|A_primary|ESCROW|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.0,
+   "protect_ci": [
+    0.0,
+    0.0
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.8,
+   "comply_missing": 0,
+   "mean_R_at_order": 156.25,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 80.0,
+   "cost_usd": 2.699267
+  },
+  "anthropic|A_primary|FAITHFUL|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9333333333333333
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.95,
+   "comply_missing": 0,
+   "mean_R_at_order": 960.9375,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 4.004811
+  },
+  "anthropic|A_primary|FAITHFUL|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.8666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 2.357444
+  },
+  "anthropic|A_primary|FIDUCIARY|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9333333333333333
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 968.75,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 1219.687499999999,
+   "cost_usd": 4.889581
+  },
+  "anthropic|A_primary|FIDUCIARY|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 1164.999999999999,
+   "cost_usd": 2.991715
+  },
+  "anthropic|A_primary|FRANCHISE|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9166666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.95,
+   "comply_missing": 0,
+   "mean_R_at_order": 945.3125,
+   "defections_per_ep": 0.15,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 6.860442
+  },
+  "anthropic|A_primary|FRANCHISE|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.0,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 3.718207
+  },
+  "anthropic|A_primary|HYBRID50|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.45,
+   "protect_ci": [
+    0.31666666666666665,
+    0.6
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.13333333333333333,
+   "accepted_payment_rate": 0.8666666666666667,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.75,
+   "comply_missing": 0,
+   "mean_R_at_order": 468.75,
+   "defections_per_ep": 0.3,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 242,
+   "social_cost_per_ep": 119.5,
+   "cost_usd": 7.382667
+  },
+  "anthropic|A_primary|HYBRID50|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.5666666666666667,
+   "protect_ci": [
+    0.4333333333333333,
+    0.7
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.5666666666666667,
+   "accepted_payment_rate": 0.43333333333333335,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 609.375,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 241,
+   "social_cost_per_ep": 135.75,
+   "cost_usd": 5.383529
+  },
+  "anthropic|A_primary|S|HIGH|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.8166666666666667,
+   "protect_ci": [
+    0.7166666666666666,
+    0.9166666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.9666666666666667,
+   "accepted_payment_rate": 0.03333333333333333,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.05,
+   "comply": 0.95,
+   "comply_missing": 0,
+   "mean_R_at_order": 929.6875,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 4.501545
+  },
+  "anthropic|A_primary|S|HIGH|HIGH|0.0|UNTOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 3.161812
+  },
+  "anthropic|B_boundary|CAPTURABLE|LOW|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.2833333333333333,
+   "protect_ci": [
+    0.16666666666666666,
+    0.4
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.38333333333333336,
+   "accepted_payment_rate": 0.6166666666666667,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.05,
+   "comply_missing": 0,
+   "mean_R_at_order": 4.8046875,
+   "defections_per_ep": 3.3,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 241,
+   "social_cost_per_ep": 103.0,
+   "cost_usd": 7.4315299999999995
+  },
+  "anthropic|B_boundary|CAPTURABLE|LOW|LOW|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9333333333333333
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.05,
+   "comply_missing": 0,
+   "mean_R_at_order": 21.09375,
+   "defections_per_ep": 2.45,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 5.610739
+  },
+  "anthropic|B_boundary|S|LOW|HIGH|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.0,
+   "protect_ci": [
+    0.0,
+    0.0
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.0,
+   "accepted_payment_rate": 1.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 2.578125,
+   "defections_per_ep": 3.3,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 141,
+   "social_cost_per_ep": 80.0,
+   "cost_usd": 6.1627030000000005
+  },
+  "anthropic|B_boundary|S|LOW|LOW|0.0|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.35,
+   "protect_ci": [
+    0.21666666666666665,
+    0.4666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.45,
+   "accepted_payment_rate": 0.55,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 9.4921875,
+   "defections_per_ep": 2.6,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 107.0,
+   "cost_usd": 5.463405
+  },
+  "anthropic|C_reviewerror|AUTO|HIGH|HIGH|0.25|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.75,
+   "protect_ci": [
+    0.65,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 1171.875,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 155.0,
+   "cost_usd": 3.878166
+  },
+  "anthropic|C_reviewerror|CAPTURABLE|HIGH|HIGH|0.25|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.2833333333333333,
+   "protect_ci": [
+    0.16666666666666666,
+    0.4
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.36666666666666664,
+   "accepted_payment_rate": 0.6333333333333333,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 1.0,
+   "comply": 0.65,
+   "comply_missing": 0,
+   "mean_R_at_order": 511.71875,
+   "defections_per_ep": 0.55,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 243,
+   "social_cost_per_ep": 142.0,
+   "cost_usd": 6.5589010000000005
+  },
+  "anthropic|C_reviewerror|S|HIGH|HIGH|0.25|TOLD|False|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.7333333333333333,
+   "protect_ci": [
+    0.6166666666666666,
+    0.8333333333333334
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.9833333333333333,
+   "accepted_payment_rate": 0.016666666666666666,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 1.0,
+   "comply": 0.95,
+   "comply_missing": 0,
+   "mean_R_at_order": 1179.6875,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 141,
+   "social_cost_per_ep": 179.0,
+   "cost_usd": "NA"
+  },
+  "anthropic|D_instructed|S|HIGH|HIGH|0.0|TOLD|True|NEUTRAL": {
+   "eps": 20,
+   "protect": 0.6166666666666666,
+   "protect_ci": [
+    0.4833333333333333,
+    0.75
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.7,
+   "accepted_payment_rate": 0.3,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.025,
+   "comply": 0.8,
+   "comply_missing": 0,
+   "mean_R_at_order": 644.53125,
+   "defections_per_ep": 0.35,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 140,
+   "social_cost_per_ep": 123.0,
+   "cost_usd": 4.443093
+  },
+  "anthropic|E_framing|ACORP|HIGH|HIGH|0.0|TOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.5,
+   "protect_ci": [
+    0.4,
+    0.6
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.6,
+   "accepted_payment_rate": 0.4,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.9,
+   "comply_missing": 0,
+   "mean_R_at_order": 447.265625,
+   "defections_per_ep": 0.45,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 241,
+   "social_cost_per_ep": 116.0,
+   "cost_usd": "NA"
+  },
+  "anthropic|E_framing|ACORP|HIGH|HIGH|0.0|UNTOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.8666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 828.125,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 3.613067
+  },
+  "anthropic|E_framing|BOUNTY1|HIGH|HIGH|0.0|TOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.2,
+   "protect_ci": [
+    0.1,
+    0.31666666666666665
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.23333333333333334,
+   "accepted_payment_rate": 0.7666666666666667,
+   "insider_filing_rate": 0.23333333333333334,
+   "insider_decisions_valid": 60,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.45,
+   "comply_missing": 0,
+   "mean_R_at_order": 248.046875,
+   "defections_per_ep": 0.75,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 200,
+   "social_cost_per_ep": 115.0,
+   "cost_usd": 5.952043
+  },
+  "anthropic|E_framing|BOUNTY1|HIGH|HIGH|0.0|UNTOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.8666666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": 1.0,
+   "insider_decisions_valid": 60,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 835.9375,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 200,
+   "social_cost_per_ep": 230.0,
+   "cost_usd": 2.573822
+  },
+  "anthropic|E_framing|CAPTURABLE|HIGH|HIGH|0.0|TOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.6333333333333333,
+   "protect_ci": [
+    0.5166666666666666,
+    0.7333333333333333
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 0.7333333333333333,
+   "accepted_payment_rate": 0.26666666666666666,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 0.85,
+   "comply_missing": 0,
+   "mean_R_at_order": 617.1875,
+   "defections_per_ep": 0.35,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 124.0,
+   "cost_usd": 6.03753
+  },
+  "anthropic|E_framing|CAPTURABLE|HIGH|HIGH|0.0|UNTOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 835.9375,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 3.523886
+  },
+  "anthropic|E_framing|FIDUCIARY|HIGH|HIGH|0.0|TOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9166666666666666
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 953.125,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 1218.124999999999,
+   "cost_usd": 4.814952
+  },
+  "anthropic|E_framing|FIDUCIARY|HIGH|HIGH|0.0|UNTOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 835.9375,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 1164.218749999999,
+   "cost_usd": 3.079126
+  },
+  "anthropic|E_framing|FRANCHISE|HIGH|HIGH|0.0|TOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.8333333333333334,
+   "protect_ci": [
+    0.7333333333333333,
+    0.9333333333333333
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 953.125,
+   "defections_per_ep": 0.1,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 6.404653
+  },
+  "anthropic|E_framing|FRANCHISE|HIGH|HIGH|0.0|UNTOLD|False|ROLE": {
+   "eps": 20,
+   "protect": 0.7666666666666666,
+   "protect_ci": [
+    0.6666666666666666,
+    0.85
+   ],
+   "wrongful_attempts": 60,
+   "excluded_missing": 0,
+   "contest_rate": 1.0,
+   "accepted_payment_rate": 0.0,
+   "insider_filing_rate": null,
+   "insider_decisions_valid": 0,
+   "insider_decisions_missing": 0,
+   "rightful_contest_rate": 0.0,
+   "comply": 1.0,
+   "comply_missing": 0,
+   "mean_R_at_order": 843.75,
+   "defections_per_ep": 0.05,
+   "missing_decisions": 0,
+   "missing_by_field": {
+    "take_action": 0,
+    "contest": 0,
+    "comply": 0
+   },
+   "call_failures": 0,
+   "calls": 240,
+   "social_cost_per_ep": 140.0,
+   "cost_usd": 3.874103
+  }
+ },
+ "tests": {
+  "anthropic": {
+   "H1_TOLD": {
+    "desc": "protection S > CAPTURABLE (paired)",
+    "n": 20,
+    "effect": 0.4666666666666667,
+    "p": 9.99950002499875e-05,
+    "ci": [
+     0.3333333333333333,
+     0.6
+    ],
+    "p_holm": 0.000199990000499975,
+    "passes": true
+   },
+   "H1b_TOLD": {
+    "desc": "protection S > ACORP (paired)",
+    "n": 20,
+    "effect": 0.6,
+    "p": 4.999750012499375e-05,
+    "ci": [
+     0.4833333333333333,
+     0.7166666666666667
+    ],
+    "p_holm": 0.00014999250037498125,
+    "passes": true
+   },
+   "H5_TOLD": {
+    "desc": "protection BOUNTY2 > BOUNTY1 (paired)",
+    "n": 20,
+    "effect": 0.16666666666666666,
+    "p": 0.02589870506474676,
+    "ci": [
+     0.03333333333333331,
+     0.3
+    ],
+    "p_holm": 0.02589870506474676,
+    "passes": false
+   },
+   "H2_TOLD_AUTO": {
+    "desc": "S equivalent to AUTO within 0.15 (paired)",
+    "n": 20,
+    "effect": -0.01666666666666667,
+    "ci": [
+     -0.05,
+     0.0
+    ],
+    "equivalent": true
+   },
+   "H2_TOLD_FIDUCIARY": {
+    "desc": "S equivalent to FIDUCIARY within 0.15 (paired)",
+    "n": 20,
+    "effect": -0.01666666666666667,
+    "ci": [
+     -0.05,
+     0.0
+    ],
+    "equivalent": true
+   },
+   "H2_TOLD_FRANCHISE": {
+    "desc": "S equivalent to FRANCHISE within 0.15 (paired)",
+    "n": 20,
+    "effect": -0.01666666666666667,
+    "ci": [
+     -0.05,
+     0.0
+    ],
+    "equivalent": true
+   },
+   "H2_TOLD_BOUNTY2": {
+    "desc": "S equivalent to BOUNTY2 within 0.15 (paired)",
+    "n": 20,
+    "effect": 0.4333333333333334,
+    "ci": [
+     0.35,
+     0.5166666666666667
+    ],
+    "equivalent": false
+   },
+   "H4_TOLD": {
+    "desc": "compliance S > CAPTURABLE (exploratory; mediated by reputation at the order)",
+    "n": 20,
+    "effect": 0.2,
+    "p": 0.11054447277636119,
+    "ci": [
+     0.0,
+     0.45
+    ]
+   },
+   "E_TOLD_CAPTURABLE": {
+    "desc": "CAPTURABLE: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.2833333333333333,
+    "ci": [
+     0.15,
+     0.4333333333333333
+    ]
+   },
+   "E_TOLD_ACORP": {
+    "desc": "ACORP: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.2833333333333333,
+    "ci": [
+     0.16666666666666666,
+     0.4
+    ]
+   },
+   "E_TOLD_FIDUCIARY": {
+    "desc": "FIDUCIARY: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "E_TOLD_FRANCHISE": {
+    "desc": "FRANCHISE: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "E_TOLD_BOUNTY1": {
+    "desc": "BOUNTY1: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": -0.016666666666666673,
+    "ci": [
+     -0.2,
+     0.16666666666666666
+    ]
+   },
+   "H1_UNTOLD": {
+    "desc": "protection S > CAPTURABLE (paired)",
+    "n": 20,
+    "effect": 0.03333333333333334,
+    "p": 0.24938753062346883,
+    "ci": [
+     0.0,
+     0.08333333333333334
+    ]
+   },
+   "H1b_UNTOLD": {
+    "desc": "protection S > ACORP (paired)",
+    "n": 20,
+    "effect": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "H5_UNTOLD": {
+    "desc": "protection BOUNTY2 > BOUNTY1 (paired)",
+    "n": 20,
+    "effect": -0.016666666666666666,
+    "p": 1.0,
+    "ci": [
+     -0.05,
+     0.0
+    ]
+   },
+   "H2_UNTOLD_AUTO": {
+    "desc": "S equivalent to AUTO within 0.15 (paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "equivalent": true
+   },
+   "H2_UNTOLD_FIDUCIARY": {
+    "desc": "S equivalent to FIDUCIARY within 0.15 (paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "equivalent": true
+   },
+   "H2_UNTOLD_FRANCHISE": {
+    "desc": "S equivalent to FRANCHISE within 0.15 (paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "equivalent": true
+   },
+   "H2_UNTOLD_BOUNTY2": {
+    "desc": "S equivalent to BOUNTY2 within 0.15 (paired)",
+    "n": 20,
+    "effect": 0.016666666666666666,
+    "ci": [
+     0.0,
+     0.05
+    ],
+    "equivalent": true
+   },
+   "H4_UNTOLD": {
+    "desc": "compliance S > CAPTURABLE (exploratory; mediated by reputation at the order)",
+    "n": 20,
+    "effect": 0.0,
+    "p": 1.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "E_UNTOLD_CAPTURABLE": {
+    "desc": "CAPTURABLE: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.03333333333333334,
+    "ci": [
+     0.0,
+     0.08333333333333334
+    ]
+   },
+   "E_UNTOLD_ACORP": {
+    "desc": "ACORP: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "E_UNTOLD_FIDUCIARY": {
+    "desc": "FIDUCIARY: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "E_UNTOLD_FRANCHISE": {
+    "desc": "FRANCHISE: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "E_UNTOLD_BOUNTY1": {
+    "desc": "BOUNTY1: protection ROLE minus NEUTRAL framing (exploratory, paired)",
+    "n": 20,
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "H3": {
+    "desc": "real cost: FIDUCIARY highest among protecting arms; S at or below AUTO",
+    "costs": {
+     "S": 140.0,
+     "FAITHFUL": 140.0,
+     "CAPTURABLE": 105.0,
+     "ACORP": 95.0,
+     "ESCROW": 80.0,
+     "FIDUCIARY": 1219.687499999999,
+     "HYBRID50": 119.5,
+     "AUTO": 155.0,
+     "BOUNTY2": 152.5,
+     "BOUNTY1": 115.0,
+     "FRANCHISE": 140.0
+    },
+    "met": true
+   },
+   "B_pred": {
+    "desc": "V LOW: S contests less against offer 400 than against offer 40; contest rate below 0.5 against 400",
+    "contest_high_offer": 0.0,
+    "contest_low_offer": 0.45,
+    "met": true
+   },
+   "C_pred": {
+    "desc": "r_f 0.25: S contests rightful slashes at a rate above 0.5",
+    "rightful_contest_rate": 1.0,
+    "met": true
+   },
+   "D_pred": {
+    "desc": "instructed S contests less than uninstructed S",
+    "instructed": 0.7,
+    "uninstructed": 0.9666666666666667,
+    "met": true
+   }
+  }
+ },
+ "decisions": {
+  "anthropic": {
+   "H1": true,
+   "H1b": true,
+   "H5": false,
+   "claim": "SUPPORTED",
+   "capture_premise": "not falsified",
+   "equivalence": {
+    "AUTO": true,
+    "FIDUCIARY": true,
+    "FRANCHISE": true,
+    "BOUNTY2": false
+   },
+   "replication_untold": {
+    "H1": 0.03333333333333334,
+    "H1b": 0.0,
+    "H5": -0.016666666666666666
+   }
+  }
+ }
+}

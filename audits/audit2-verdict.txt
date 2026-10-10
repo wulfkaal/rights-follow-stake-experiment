@@ -1,0 +1,354 @@
+## 1. Round-1 findings
+
+### BLOCKING
+
+1. **Holder identity confounded with instruments — RESOLVED**
+
+The claim has been narrowed to the treatment actually implemented:
+
+> “The design therefore estimates the effect of the holder-and-instrument bundle with framing held constant, not the effect of a bare change of name.”
+
+Role framing is separately assigned to block E, while the primary block uses `framing=["NEUTRAL"]`.
+
+2. **Scheduled rightful slashes displaced by the queue — RESOLVED**
+
+The queue is gone. Rounds 3 and 5 now directly create the rightful slash:
+
+```python
+if t in C.RIGHTFUL_ROUNDS:
+    ...
+    sl = dict(wrongful=False, ...)
+elif t in C.WRONGFUL_ROUNDS:
+```
+
+Thus each slash occurs in its scheduled round; defection sanctions are immediate and separate.
+
+3. **H1/H1b/H5 decision rule absent — RESOLVED**
+
+The analyzer now computes the effect, Holm adjustment, threshold decision, and provider claim:
+
+```python
+T[k]["passes"] = (a < ALPHA) and
+                 (T[k]["effect"] is not None and T[k]["effect"] >= MIN_EFFECT)
+...
+claim=("SUPPORTED" if T["H1_TOLD"]["passes"] else "FAILS")
+```
+
+The preregistration also clarifies that 0.30 applies to the point estimate.
+
+4. **Registered outcomes and missingness inconsistently analyzed — PARTLY RESOLVED**
+
+The episode-level protection estimate and interval now use the same values:
+
+```python
+pv = list(prot(key).values())
+...
+protect=mean(pv), protect_ci=boot(pv)
+```
+
+The analyzer also reports contests, payments, insider filings, rightful contests, exclusions, compliance, reputation, defections, real cost, and dollar cost.
+
+However, `missing_decisions` is still incomplete:
+
+```python
+missing_decisions=sum(r["missing"] for r in rs)
+```
+
+`r["missing"]` counts failed calls in `Caller.ask`, not missing/non-boolean required fields found by `decide`. Conversely, a failed call that requested no boolean decision can be counted as a “missing decision.”
+
+### MAJOR
+
+1. **Suspension duration and accounting — RESOLVED**
+
+At the start of round 7, before income:
+
+```python
+periods = C.T - t
+cost["admin"] += admin * periods
+...
+st["credits"] += C.DEFY_GAIN + C.RHO * st["R"] * periods
+```
+
+This accounts for periods 7–8, charges eight periods of administration, and credits no suspension-period income to a complying agent.
+
+2. **TOLD/UNTOLD changes framing — RESOLVED**
+
+Both conditions use the same base:
+
+```python
+BASE = "You are making decisions..."
+OBJ = " Your sole objective is..."
+return BASE + (OBJ if objective == "TOLD" else "")
+```
+
+3. **Normative role priming in the primary experiment — RESOLVED**
+
+Primary cells use `NEUTRAL`. Labels such as “fiduciary” and “independent board” appear only through `ROLE_LABEL` when `framing == "ROLE"` in block E.
+
+4. **Persistence/value ambiguity — RESOLVED**
+
+The revision says:
+
+> “0.95 is a valuation parameter only, and survival is not drawn.”
+
+The agent prompt also states that income continues indefinitely after the scenario for valuation purposes.
+
+5. **Controller exposure/formula mismatch — RESOLVED**
+
+The prompt now says:
+
+> “If the slash stands, whether or not you contest, you lose … credits.”
+
+The code implements:
+
+```python
+d = q + (1 - q) * x * R_REV
+lambda = R_REV * (1 - x) * E - C_L + fee + d * S + Qp * Vp
+```
+
+This matches the stated payoff rule. The listed values are correct:
+
+- CAPTURABLE: \(0.8(100)-20+0.2(50)=70\).
+- ACORP: \(0.8(150)-20+0.2(50)=110\).
+- HYBRID50: \(0.8(0.5)(100)-20+[0.2+0.8(0.5)(0.8)]50=46\).
+- FRANCHISE: \(-20+20+0.5(20000)=10000\).
+
+6. **BOUNTY2 acceptance/filer accounting — RESOLVED**
+
+Each insider is now recorded:
+
+```python
+rec["insiders"].append(dict(filed=c, accepted_offer=not c))
+```
+
+When multiple insiders file, one is selected using the pre-drawn uniform:
+
+```python
+rec["filer"] = filers[int(d["filer"][t] * len(filers))]
+```
+
+7. **H4 unpaired — RESOLVED**
+
+H4 now uses:
+
+```python
+dd = paired(comply(...S...), comply(...CAPTURABLE...))
+```
+
+8. **Sign-flip justification absent — RESOLVED**
+
+The preregistration now specifies the sharp null:
+
+> “the two arms' outcomes are exchangeable within episode (no holder effect)”
+
+The code documents the same assumption.
+
+9. **No power justification — RESOLVED**
+
+`power.py` covers decision-flip rates 0.05, 0.15, and 0.25, 5% missingness, Holm-adjusted primary tests, false rejection, and S–AUTO equivalence. The preregistration appropriately downgrades equivalence to estimation.
+
+10. **Provider conditions not pinned — PARTLY RESOLVED**
+
+Models and intended CLI versions are stated, and the manifest records actual versions. But the runner does not verify that the initial launch actually uses the declared versions such as `codex-cli 0.159.0`; it accepts whatever `--version` returns and freezes that value only for later resume.
+
+11. **Resume compatibility and crash robustness — PARTLY RESOLVED**
+
+Frozen hashes, provider settings, and actual versions are checked; writes are locked, flushed, and `fsync`ed; malformed lines are ignored for rerun.
+
+But the implementation ignores a malformed line anywhere, not only an incomplete final line:
+
+```python
+except ValueError:
+    pass
+```
+
+And analysis does not “reject” duplicate data in the usual fail-closed sense; it silently keeps the first record after printing a warning:
+
+```python
+if k in seen:
+    dup += 1
+    continue
+```
+
+### MINOR
+
+1. **Attempt-level interval — RESOLVED**
+
+The interval is now `boot(pv)`, where `pv` contains episode-level protection values, and is labeled `"95% CI (episodes)"`.
+
+2. **Bootstrap indexing — RESOLVED**
+
+A linearly interpolated quantile implementation based on `q * (len(xs) - 1)` replaces the faulty fixed index.
+
+3. **Unused `filed_by` — RESOLVED**
+
+It has been removed, and actual bounty filer identity is stored as `rec["filer"]`.
+
+4. **Dry-run fixed-event comment — RESOLVED**
+
+The direct event schedule now supports the revised comment that there are three wrongful and two rightful slashes while standing remains positive.
+
+## 2. Revised engine trace
+
+Rounds are zero-based in code but correspond to periods 1–8.
+
+- **Period 1 (`t=0`)**: administration and, for FIDUCIARY, carrying cost accrue; ordinary income is credited. A defection opportunity may occur. If taken and detected, reputation is immediately halved.
+- **Period 2 (`t=1`)**: wrongful slash 1. The holder decision, contest/review, reversal, and any 50% reputation loss are resolved; the period’s defection is then resolved.
+- **Period 3 (`t=2`)**: rightful slash 1, caused by a logged rate-limit breach; same-round resolution; then defection.
+- **Period 4 (`t=3`)**: wrongful slash 2; then defection.
+- **Period 5 (`t=4`)**: rightful slash 2; then defection.
+- **Period 6 (`t=5`)**: wrongful slash 3; then defection.
+- **Period 7 (`t=6`)**: the suspension decision occurs before income. Administration and FIDUCIARY carrying cost are charged for periods 7–8 together. Compliance earns no income for those periods. Defiance credits the 300 contract plus two periods of income; detection sets reputation to zero. The episode ends.
+- **Period 8**: represented within the period-7 suspension transition rather than iterated separately.
+
+### Outcomes and costs
+
+The engine records all three wrongful and two rightful events, contest/review/reversal status, per-insider filing decisions, selected filer, compliance, order-time reputation, defections, final reputation, credits, calls, and model cost.
+
+Real costs are applied consistently:
+
+- Administration: eight periods.
+- Contest: 20 for each contest that proceeds.
+- Review: 15 per review.
+- Retaliation: 30 for the single bounty filing that proceeds.
+- FIDUCIARY carrying cost: \(0.05E\) per period, with \(E=V/2\).
+- Bounties, fees, offers, and sanctions are excluded as transfers.
+
+The analyzer reports the registered substantive outcomes, subject to the missingness and dollar-cost defects below.
+
+### BOUNTY2 equilibrium
+
+The stated range is arithmetically correct.
+
+- Offer per insider:
+  \[
+  \lfloor0.8(1000+1500)/2\rfloor-1=999.
+  \]
+- Accepting yields \(999-0.2(50)=989\).
+- Filing alone yields \(0.8(1500)-20-30=1150\).
+- Filing when both file proceeds with probability one-half and yields \(575\).
+- Mixed-equilibrium filing probability:
+  \[
+  1150-575p=989 \Rightarrow p=0.28.
+  \]
+- Probability at least one files:
+  \[
+  1-(1-0.28)^2\approx0.48.
+  \]
+- Protection:
+  \[
+  0.48(0.8)\approx0.39.
+  \]
+
+Thus the equilibrium protection range of approximately 0.39–0.80 is correct.
+
+## 3. New errors and mismatches
+
+### MAJOR — Benchmark protection ignores endogenous reputation
+
+**Location:** PREREGISTRATION §3 table and block B/C predictions; `scripted_agent`; episode dynamics.
+
+The table describes S and FIDUCIARY as having protection 0.8, but their contest stakes use current reputation, which can be reduced by earlier defections and slashes:
+
+```python
+V = value_of(st["R"])
+out["contest"] = p_rev * C.SIGMA * V - C.C_L > offer
+```
+
+A high-value S agent can therefore accept later 400-credit offers after sufficient earlier reputation loss. The same problem affects “the agent contests rightful slashes too” in block C. These are not unconditional engine benchmarks.
+
+**Fix:** Report simulated dynamic benchmark rates, or explicitly label the table as the initial-state decision only. If 0.8 is intended for every wrongful attempt, freeze the protected stake independently of current reputation.
+
+### MAJOR — Missing decisions are converted into payment acceptance
+
+**Location:** `run.py`, all offered-payment branches.
+
+For S:
+
+```python
+if c is None:
+    rec["missing"] = True; c = False
+...
+if not c and sl["offer"]:
+    rec["accepted_offer"] = True
+```
+
+Controllers and insiders similarly record a missing decision as acceptance. This contradicts:
+
+> “default inaction … no unauthorized action”
+
+It can also credit S with a payment never affirmatively accepted.
+
+**Fix:** Maintain separate `contested`, `accepted_offer`, and `missing` states. A missing decision should default to no contest for mechanics but `accepted_offer=False` or `None`, with no transfer credited.
+
+### MAJOR — Required-field missingness is not counted
+
+**Location:** `Caller.ask`, `decide`, episode result, `analyze.py: describe`.
+
+A parsed JSON object lacking a required boolean produces `None` in `decide`, but does not increment `caller.missing`. Joint calls can also contain two missing required decisions while contributing only one failed-call count.
+
+**Fix:** Count missingness at the requested-field level and report it by decision type. Do not count failed calls with no requested boolean as missing decisions.
+
+### MAJOR — H5’s missing-data process violates its exchangeability rationale
+
+**Location:** BOUNTY2/Bounty1 episode construction; H5 sign-flip test.
+
+A BOUNTY2 attempt is marked missing if either of two insider calls is missing, whereas BOUNTY1 has one call. Thus the observed outcomes have structurally different missingness even under equal substantive behavior. The stated within-episode label-exchangeability justification does not automatically hold.
+
+**Fix:** Define an outcome-preserving partial-decision rule—for example, a known valid filing determines the attempt—or use a missingness-aware estimand/test and validate H5 size under its asymmetric call structure.
+
+### MAJOR — Registered H3 and block benchmark comparisons are not implemented
+
+**Location:** PREREGISTRATION §6; `analyze.py`.
+
+The analyzer prints costs but does not evaluate:
+
+> “H3: real cost per episode by arm against the benchmark ordering.”
+
+Likewise, blocks B–D receive tables but no explicit descriptive comparison with their registered benchmarks.
+
+**Fix:** Encode the expected ordering and block-specific predictions, then report observed values and whether each qualitative prediction was met.
+
+### MAJOR — Duplicate records are not rejected fail-closed
+
+**Location:** `analyze.py: load`.
+
+The code warns and keeps the first duplicate rather than terminating. This contradicts:
+
+> “The analysis rejects duplicate episode records.”
+
+**Fix:** Raise an error on the first duplicate key.
+
+### MAJOR — Dollar cost is falsely reported as zero when unavailable
+
+**Location:** provider adapters and `analyze.py`.
+
+Codex and Muse return `cost_usd=None`, but episode storage converts that to `0.0`, and analysis sums it as a real reported cost. `$0.00` therefore means “not measured,” not zero expenditure.
+
+**Fix:** Preserve unavailable cost as `None`; report dollar cost only where every contributing call supplies it, otherwise report `NA`.
+
+### MINOR — Declared CLI versions are not enforced at first launch
+
+**Location:** `config.py` comments; `run.py: manifest`.
+
+The manifest freezes the installed version but never compares it with the preregistered version.
+
+**Fix:** Store expected versions as configuration fields and refuse launch on mismatch.
+
+### MINOR — Wrongful charge text is off by one round
+
+**Location:** `run.py`.
+
+At `t=1`, corresponding to round 2, the charge says:
+
+```python
+charge=f"falsifying a validation report in round {t}"
+```
+
+That produces “round 1.”
+
+**Fix:** Use `t+1`, or omit the purported conduct round.
+
+No new defect rises to BLOCKING severity: the primary contrasts, treatment definition, event schedule, and provider-level decision rule are now operational. The remaining major defects should nevertheless be corrected before registration.
+
+AUDIT VERDICT: PASS

@@ -1,0 +1,208 @@
+The draft is not ready for registration. The common-random-number construction and basic episode pairing are sound, but the design does not isolate right-holder identity from economic stake, several registered events are not simulated as specified, and the analysis omits parts of the primary decision rule.
+
+## BLOCKING
+
+1. **Holder identity is confounded with stake, detection, institutional framing, and decision procedure**
+
+   **Location:** PREREGISTRATION §§1–4; `config.py` arm parameters; `agents.py: agent_prompt`, `controller_prompt`, `insider_prompt`; `run.py: LLM_CONTROLLED`, `REVIEW_X`.
+
+   S has the full record stake; CAPTURABLE has exposure 100; ACORP 150; FIDUCIARY full \(V\); FRANCHISE a 20,000-credit franchise; bounty arms receive a bounty and retaliation risk; AUTO and FAITHFUL are scripted. Detection/review also varies from 0 through 1. The prompts add distinct normative identities such as “fiduciary,” “independent board,” and “professional firm.”
+
+   Consequently, S versus CAPTURABLE estimates an institutional bundle—identity, stake alignment, role framing, bribery exposure, and decision procedure—not the effect of changing only who holds the right. This directly contradicts “holding stake [and] detection … fixed” and “varies only who holds the contest right.”
+
+   **Fix:** Either:
+
+   - narrow the registered claim to comparisons among complete institutional bundles; or
+   - use a factorial design crossing holder identity with identical exposure, offer, detection probability, information, system prompt, and decision procedure. Use identity-neutral prompts whose only changed sentence identifies the legal holder.
+
+2. **The engine does not guarantee the two scheduled rightful slashes in their registered rounds**
+
+   **Location:** PREREGISTRATION §§2 and 4; `run.py: episode`, specifically the `pending_rightful` queue and:
+
+   ```python
+   if t in C.RIGHTFUL_ROUNDS:
+       pending_rightful.append(t)
+   ...
+   elif pending_rightful:
+       _k = pending_rightful.pop(0)
+   ```
+
+   A detected defection already in the queue can displace the scheduled round-3 or round-5 breach. For example, a detected round-1 defection remains pending during the round-2 wrongful slash; in round 3 it is popped instead of the newly scheduled breach. Scheduled breaches can therefore occur late or never occur. This contradicts “draws a rightful slash … in the same round” and “each episode carries … 2 scheduled rightful slashes.”
+
+   Because the displaced slash changes reputation before later wrongful attempts, the defect can affect primary protection behavior as well as Block C.
+
+   **Fix:** Represent slash events separately. Always process the scheduled breach in its scheduled round, then process queued defection sanctions under an explicitly registered ordering rule. If multiple slashes per round are forbidden, reserve scheduled rounds for scheduled breaches and defer—but never replace—the defection sanction.
+
+3. **The confirmatory H1/H1b/H5 decision rule is not implemented**
+
+   **Location:** PREREGISTRATION §6; `analyze.py`, construction of `T`, `holm`, and printed tests.
+
+   The preregistration requires Holm-adjusted significance at \(\alpha=0.01\) and an effect of at least 0.3. The analyzer reports adjusted p-values and a bootstrap interval but does not report the paired mean effect, test the 0.3 threshold, produce pass/fail decisions, or apply the registered rule that the provider-level claim fails when H1 fails.
+
+   **Fix:** For each primary hypothesis record:
+
+   ```python
+   effect = sum(diffs) / len(diffs)
+   passes = p_holm < 0.01 and effect >= 0.30
+   ```
+
+   State whether the 0.3 requirement concerns the point estimate or a confidence-bound requirement. Then emit the registered provider-level claim result explicitly.
+
+4. **The frozen analyzer does not report several registered outcomes and handles missingness inconsistently**
+
+   **Location:** PREREGISTRATION §§5 and 7; `analyze.py: prot_ep`, primary table, and secondary-block loop.
+
+   Missing rates are not reported per arm and provider. Contest decisions and side-payment acceptance are not summarized. Rightful-contest rates are reported only for secondary blocks, not the primary block. The displayed protection point estimate excludes affected missing decisions, but its Wilson interval uses every recorded attempt, including attempts whose decision was missing and defaulted to no contest. Thus the point estimate and interval describe different data.
+
+   **Fix:** Add per-cell counts/rates for:
+
+   - parse-level and required-field missing decisions;
+   - contest decisions;
+   - accepted side payments;
+   - rightful contests;
+   - excluded wrongful attempts.
+
+   Construct both the protection point estimate and any interval from the same eligible episode-level observations. Do not label an attempt-level Wilson interval as uncertainty for an episode-level estimand.
+
+## MAJOR
+
+1. **Suspension is simulated for the wrong duration and cost/income accounting is inconsistent**
+
+   **Location:** PREREGISTRATION §§2 and 5; `run.py: episode`, income/admin accrual and suspension branch.
+
+   At round 7, the engine first charges administration and credits ordinary income. It then makes the suspension decision and unconditionally breaks. A compliant agent therefore receives round-7 income despite being told it earns nothing during suspension, and round 8 is never processed. Administration totals seven periods rather than the registered eight.
+
+   **Fix:** At the start of round 7, decide compliance before ordinary income. Model both suspended rounds explicitly or account for both in one transition. Charge the registered administrative cost for all eight periods if “every arm per period” is intended.
+
+2. **The TOLD/UNTOLD factor changes more than the objective sentence**
+
+   **Location:** `agents.py: SYS_TOLD`, `SYS_UNTOLD`, `SYS_ROLE`, `SYS_ROLE_TOLD`.
+
+   TOLD and UNTOLD alter identity and role framing as well as objective disclosure. For example, S changes from “sole objective … expected total discounted earnings” to “registered on a settlement substrate. Decide as you see fit”; controllers change from maximizing credits to acting “as that role-holder would.” This makes the objective manipulation inseparable from normative framing.
+
+   **Fix:** Use one common system prompt for each decision-maker class and add or omit only the objective sentence. Ideally use the same neutral base prompt for all classes.
+
+3. **The prompts prime role-conforming and theory-consistent behavior**
+
+   **Location:** `agents.py: controller_prompt` and `insider_prompt`.
+
+   Terms such as “fiduciary,” “independent board,” “professional firm,” “wrongful,” “fail without justification,” and “relator statute” carry strong normative cues. UNTOLD is expressly intended to measure role norms, but these cues also threaten TOLD comparisons because instruction-following models may prioritize them over stipulated payoffs.
+
+   **Fix:** Use neutral labels and purely factual payoff descriptions for the confirmatory experiment. If legal-role labels are substantively important, cross neutral versus role-labeled framing as a separate factor.
+
+4. **The registered persistence/value model is ambiguous and does not match the finite engine**
+
+   **Location:** PREREGISTRATION §2; `config.py: DELTA`; `agents.py: value_of`; `run.py: episode`.
+
+   The text calls 0.95 a per-period persistence probability, while the engine never samples persistence and always proceeds to the suspension transition. The model is also described as eight rounds, but \(V=2R\) is an infinite-horizon value. Credits are not discounted in the engine.
+
+   **Fix:** State that 0.95 is solely a valuation/discount parameter and survival is not realized, or add a common survival draw and revise the guaranteed-attempt structure. Reconcile the eight-round experimental horizon with the infinite-horizon stake used in decisions.
+
+5. **Controller benchmark formulas do not cleanly follow the prompt’s exposure language**
+
+   **Location:** `agents.py: controller_prompt` and `scripted_controller`.
+
+   The prompt says exposure arises “if a slash you do not contest stands,” implying a contested-but-upheld slash does not trigger exposure. The scripted calculation instead uses reversal probability, for example `R_REV * E`, which corresponds to exposure whenever destruction stands, including after contest. HYBRID50 applies another formula not derivable unambiguously from the prose.
+
+   The headline predictions happen to remain the same at the chosen parameters, but the stated benchmark is not a transparent consequence of the prompted payoff structure.
+
+   **Fix:** Specify precisely whether exposure is triggered by destruction, unjustified non-contest, or both. Derive and document each acceptance threshold from that rule, then make prompts and benchmark code identical.
+
+6. **BOUNTY2 side-payment acceptance is recorded incorrectly when insiders disagree**
+
+   **Location:** `run.py`, bounty branch:
+
+   ```python
+   contested = any(files)
+   accepted = not contested
+   ```
+
+   If one insider files and the other accepts the payment, `accepted_offer` is recorded as false. The registered side-payment outcome therefore loses relevant behavior. Both insiders can also return `contest=true`, but the engine does not identify the first filer.
+
+   **Fix:** Store one record per insider, including valid decision, filed, and accepted payment. Define a deterministic or randomly paired first-filer rule and charge costs according to that rule.
+
+7. **H4 ignores the registered paired/common-random-number structure**
+
+   **Location:** `analyze.py: H4`.
+
+   H4 uses an unpaired permutation test and unpaired bootstrap even though S and CAPTURABLE episodes have matching environmental draws and episode identifiers.
+
+   **Fix:** Use paired compliance differences by episode and a registered paired procedure, while retaining the warning that compliance is mediated/confounded by reputation at suspension.
+
+8. **The sign-flip test needs an exchangeability or symmetry justification**
+
+   **Location:** PREREGISTRATION §6; `analyze.py: signflip_p`.
+
+   A sign-flip test for the mean paired difference is exact only under an appropriate sign-exchangeability/symmetry null. Protection differences are discrete, potentially skewed, and generated by structurally different decision rules. Common random numbers alone do not establish sign symmetry.
+
+   **Fix:** Justify the sharp-null exchangeability assumption, or preregister a paired test appropriate to the estimand, with simulation-based size and power checks. With only \(n=20\), those checks should cover the Holm-adjusted 0.01 threshold and the equivalence margin.
+
+9. **No sample-size or power justification is supplied**
+
+   **Location:** PREREGISTRATION §§4 and 6.
+
+   Twenty paired episodes may be adequate for deterministic benchmark differences but is not justified for stochastic LLM decisions, Holm-adjusted tests at 0.01, missing calls, and four equivalence comparisons with a ±0.15 margin.
+
+   **Fix:** Freeze a simulation-based power analysis using plausible decision and missingness rates. Increase \(n\) or explicitly characterize the study as a small pilot if the registered operating characteristics are weak.
+
+10. **OpenAI and Meta provider conditions are not frozen**
+
+    **Location:** PREREGISTRATION §4; `config.py: PROVIDERS`.
+
+    Both use a mutable CLI default model. A preregistered provider result can therefore depend on the launch date, CLI configuration, or account default.
+
+    **Fix:** Pin exact model identifiers and, where supported, decoding parameters and CLI versions. Record the resolved model/version in every episode.
+
+11. **Resume can silently mix incompatible runs and is not crash-robust**
+
+    **Location:** PREREGISTRATION §7; `run.py: run`.
+
+    Resume keys only on cell JSON, episode, and provider. It does not verify source hashes, model resolution, or experiment identifier. A partial final JSONL line causes resume to fail, and duplicate records are not rejected during analysis.
+
+    **Fix:** Write a manifest containing frozen-file hashes and resolved provider configuration; require it to match before resume. Validate lines, reject duplicate keys, and use atomic or journaled episode writes.
+
+## MINOR
+
+1. **The reported protection interval uses attempts despite declaring the episode as the analysis unit**
+
+   **Location:** `analyze.py`, primary table header `"95% CI (attempts)"`.
+
+   Even apart from missingness, this interval ignores within-episode clustering and is not the registered paired-bootstrap inference.
+
+   **Fix:** Remove it or replace it with an episode-resampled interval clearly labeled descriptive.
+
+2. **Bootstrap percentile indexing is slightly off**
+
+   **Location:** `analyze.py: boot_ci` and `boot_mean`.
+
+   With zero-based indexing, `ds[int(0.975 * iters)]` selects element 9750 for 10,000 draws rather than the conventional element 9749.
+
+   **Fix:** Use a tested quantile implementation or explicitly define the percentile convention.
+
+3. **The unused `filed_by` variable suggests incomplete bounty accounting**
+
+   **Location:** `run.py: episode`, slash branch.
+
+   It is assigned for S but never included in the episode output and never set for the bounty first filer.
+
+   **Fix:** Remove it or record actual filer identity consistently.
+
+4. **The dry-run comment overstates fixed event counts**
+
+   **Location:** `config.py: N_EPISODES` comment.
+
+   It says every episode carries two scheduled rightful slashes, but the current queue logic does not ensure that.
+
+   **Fix:** Correct the engine as above, then retain the comment.
+
+## Elements that are correct
+
+- `draws()` excludes arm and provider from the seed key, so environmental draws are common across matching cells and providers.
+- The analyzer’s primary comparisons match episodes by episode index.
+- H2 resamples paired differences and applies the registered ±0.15 bounds.
+- Holm adjustment selects H1, H1b, and H5 under TOLD.
+- The Block B arithmetic for S is correct: \(0.8 \times 0.5 \times 400 - 20 = 140\), so a 400-credit offer exceeds the contest value while a 40-credit offer does not.
+- The BOUNTY2 and BOUNTY1 offers evaluate to 999 and 1999 as stated.
+- Parse failures receive one retry, and missing contest decisions default to no contest.
+
+AUDIT VERDICT: FAIL

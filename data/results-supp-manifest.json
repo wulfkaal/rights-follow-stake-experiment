@@ -1,0 +1,23 @@
+{
+ "frozen": {
+  "PREREGISTRATION.md": "a7f8ba0a05d7e3e32cdd593cff5214005565fd0689adef3d791110855c41a27f",
+  "config.py": "6ccb3397d4dfa364490d2abfaabf567963bc4fc8ebcd2226db12f2295e0698bb",
+  "agents.py": "d541ba4f5a7ee20e53fe7708b40860b37a470f4cb908748848311d97e8c16ac2",
+  "run.py": "d19e703d84ae217af24941ff474376d9f88d147e94db2d5f43a888e7b6d7646a",
+  "analyze.py": "cab4ff56403ee5e240aa05b4c368f145bfa1147ce16c0d9853525f4af7714ce4",
+  "power.py": "0888a3d1c3ee80a105a2dc82da66a7a19af0da912d3bf183f24bfca01f2eed20"
+ },
+ "supplement": {
+  "SUPPLEMENT.md": "29b563c2747dc3861f74e888fee60d51d38a4a01b70e4a15df75728100b948a3",
+  "SUPPLEMENT-AMENDMENT-1.md": "b217f5aa2c88f1003c19df465d5d601deb767c8d5a92e3290880791725f705e3",
+  "supp_run.py": "cd5e2c2513467317912d6a315634b497624b1170fdf5553ba28462bc9933985c",
+  "supp-jobs.json": "be4a8b15ae193748a383c21afd54a171c34a541670ee7ddb3e39d6a118751054"
+ },
+ "provider": {
+  "cli": "claude",
+  "model": "claude-haiku-4-5-20251001",
+  "version": "2.1.283 (Claude Code)"
+ },
+ "version": "2.1.283 (Claude Code)",
+ "seed": 20261003
+}

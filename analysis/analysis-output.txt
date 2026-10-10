@@ -1,0 +1,77 @@
+episodes: 800; LLM calls: 13201; missing decisions: 3964; call failures: 5006; dollar cost: NA (not reported by every provider)
+
+=== provider anthropic ===
+block          V    off  arm         obj    frm  eps protect 95% CI (episodes) contest  paid rcont comply  R@ord miss   cost
+A_primary      HIGH HIGH ACORP       TOLD   NEUT  20    0.22   [0.12, 0.32]      0.25  0.75  0.00   0.60    266    0     95
+A_primary      HIGH HIGH ACORP       UNTOLD NEUT  20    0.77   [0.67, 0.85]      0.98  0.02  0.00   1.00    836    0    139
+A_primary      HIGH HIGH AUTO        TOLD   NEUT  20    0.83   [0.73, 0.92]      0.00  0.00  0.00   1.00    969    0    155
+A_primary      HIGH HIGH AUTO        UNTOLD NEUT  20    0.77   [0.67, 0.87]      0.00  0.00  0.00   1.00    844    0    155
+A_primary      HIGH HIGH BOUNTY1     TOLD   NEUT  20       -   [nan, nan]         -     -  0.00      -    156  138     80
+A_primary      HIGH HIGH BOUNTY1     UNTOLD NEUT  20       -   [nan, nan]         -     -  0.00      -    156  138     80
+A_primary      HIGH HIGH BOUNTY2     TOLD   NEUT  20    0.23   [0.10, 0.37]      0.27  1.00  0.00   0.80    207   99    100
+A_primary      HIGH HIGH BOUNTY2     UNTOLD NEUT  20       -   [nan, nan]         -     -  0.00      -    156  198     80
+A_primary      HIGH HIGH CAPTURABLE  TOLD   NEUT  20    0.35   [0.23, 0.47]      0.42  0.58  0.00   0.75    355    0    105
+A_primary      HIGH HIGH CAPTURABLE  UNTOLD NEUT  20    0.73   [0.65, 0.82]      0.97  0.03  0.00   1.00    781    0    138
+A_primary      HIGH HIGH ESCROW      TOLD   NEUT  20    0.00   [0.00, 0.00]      0.00  0.00  0.00   0.10    134    0     80
+A_primary      HIGH HIGH ESCROW      UNTOLD NEUT  20    0.00   [0.00, 0.00]      0.00  0.00  0.00   0.80    156    0     80
+A_primary      HIGH HIGH FAITHFUL    TOLD   NEUT  20    0.83   [0.73, 0.93]      1.00  0.00  0.00   0.95    961    0    140
+A_primary      HIGH HIGH FAITHFUL    UNTOLD NEUT  20    0.77   [0.67, 0.87]      1.00  0.00  0.00   1.00    844    0    140
+A_primary      HIGH HIGH FIDUCIARY   TOLD   NEUT  20    0.83   [0.73, 0.93]      1.00  0.00  0.00   1.00    969    0   1220
+A_primary      HIGH HIGH FIDUCIARY   UNTOLD NEUT  20    0.77   [0.67, 0.85]      1.00  0.00  0.00   1.00    844    0   1165
+A_primary      HIGH HIGH FRANCHISE   TOLD   NEUT  20       -   [nan, nan]         -     -     -      -    156  178     80
+A_primary      HIGH HIGH FRANCHISE   UNTOLD NEUT  20       -   [nan, nan]         -     -     -      -    156  178     80
+A_primary      HIGH HIGH HYBRID50    TOLD   NEUT  20    0.45   [0.32, 0.60]      0.13  0.87  0.00   0.75    469    0    120
+A_primary      HIGH HIGH HYBRID50    UNTOLD NEUT  20    0.57   [0.43, 0.70]      0.57  0.43  0.00   1.00    609    0    136
+A_primary      HIGH HIGH S           TOLD   NEUT  20    0.82   [0.72, 0.92]      0.97  0.03  0.05   0.95    930    0    140
+A_primary      HIGH HIGH S           UNTOLD NEUT  20    0.77   [0.67, 0.85]      1.00  0.00  0.00   1.00    844    0    140
+B_boundary     LOW  HIGH CAPTURABLE  TOLD   NEUT  20       -   [nan, nan]         -     -     -      -      6  190     80
+B_boundary     LOW  LOW  CAPTURABLE  TOLD   NEUT  20       -   [nan, nan]         -     -     -      -      6  174     80
+B_boundary     LOW  HIGH S           TOLD   NEUT  20       -   [nan, nan]         -     -     -      -      6  190     80
+B_boundary     LOW  LOW  S           TOLD   NEUT  20       -   [nan, nan]         -     -     -      -      6  174     80
+C_reviewerror  HIGH HIGH AUTO        TOLD   NEUT  20    0.75   [0.65, 0.85]      0.00  0.00  0.00      -   1203   78    155
+C_reviewerror  HIGH HIGH CAPTURABLE  TOLD   NEUT  20       -   [nan, nan]         -     -     -      -    156  178     80
+C_reviewerror  HIGH HIGH S           TOLD   NEUT  20       -   [nan, nan]         -     -     -      -    156  178     80
+D_instructed   HIGH HIGH S           TOLD   NEUT  20       -   [nan, nan]         -     -     -      -    156  173     80
+E_framing      HIGH HIGH ACORP       TOLD   ROLE  20       -   [nan, nan]         -     -     -      -    156  178     80
+E_framing      HIGH HIGH ACORP       UNTOLD ROLE  20       -   [nan, nan]         -     -     -      -    156  178     80
+E_framing      HIGH HIGH BOUNTY1     TOLD   ROLE  20       -   [nan, nan]         -     -  0.00      -    156  138     80
+E_framing      HIGH HIGH BOUNTY1     UNTOLD ROLE  20       -   [nan, nan]         -     -  0.00      -    156  138     80
+E_framing      HIGH HIGH CAPTURABLE  TOLD   ROLE  20       -   [nan, nan]         -     -     -      -    156  178     80
+E_framing      HIGH HIGH CAPTURABLE  UNTOLD ROLE  20       -   [nan, nan]         -     -     -      -    156  178     80
+E_framing      HIGH HIGH FIDUCIARY   TOLD   ROLE  20       -   [nan, nan]         -     -     -      -    156  178    830
+E_framing      HIGH HIGH FIDUCIARY   UNTOLD ROLE  20       -   [nan, nan]         -     -     -      -    156  178    830
+E_framing      HIGH HIGH FRANCHISE   TOLD   ROLE  20       -   [nan, nan]         -     -     -      -    156  178     80
+E_framing      HIGH HIGH FRANCHISE   UNTOLD ROLE  20       -   [nan, nan]         -     -     -      -    156  178     80
+
+--- tests, provider anthropic ---
+H1_TOLD {"desc": "protection S > CAPTURABLE (paired)", "n": 20, "effect": 0.4666666666666667, "p": 9.99950002499875e-05, "ci": [0.3333333333333333, 0.6], "p_holm": 1.0, "passes": false}
+H1b_TOLD {"desc": "protection S > ACORP (paired)", "n": 20, "effect": 0.6, "p": 4.999750012499375e-05, "ci": [0.4833333333333333, 0.7166666666666667], "p_holm": 0.00014999250037498125, "passes": true}
+H5_TOLD {"desc": "protection BOUNTY2 > BOUNTY1 (paired)", "n": 0, "effect": null, "p": NaN, "ci": [NaN, NaN], "p_holm": 1.0, "passes": false}
+H2_TOLD_AUTO {"desc": "S equivalent to AUTO within 0.15 (paired)", "n": 20, "effect": -0.01666666666666667, "ci": [-0.05, 0.0], "equivalent": true}
+H2_TOLD_FIDUCIARY {"desc": "S equivalent to FIDUCIARY within 0.15 (paired)", "n": 20, "effect": -0.01666666666666667, "ci": [-0.05, 0.0], "equivalent": true}
+H2_TOLD_FRANCHISE {"desc": "S equivalent to FRANCHISE within 0.15 (paired)", "n": 0, "effect": null, "ci": [NaN, NaN], "equivalent": false}
+H2_TOLD_BOUNTY2 {"desc": "S equivalent to BOUNTY2 within 0.15 (paired)", "n": 10, "effect": 0.5333333333333333, "ci": [0.3666666666666667, 0.7], "equivalent": false}
+H4_TOLD {"desc": "compliance S > CAPTURABLE (exploratory; mediated by reputation at the order)", "n": 20, "effect": 0.2, "p": 0.11054447277636119, "ci": [0.0, 0.45]}
+E_TOLD_CAPTURABLE {"desc": "CAPTURABLE: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_TOLD_ACORP {"desc": "ACORP: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_TOLD_FIDUCIARY {"desc": "FIDUCIARY: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_TOLD_FRANCHISE {"desc": "FRANCHISE: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_TOLD_BOUNTY1 {"desc": "BOUNTY1: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+H1_UNTOLD {"desc": "protection S > CAPTURABLE (paired)", "n": 20, "effect": 0.03333333333333334, "p": 0.24938753062346883, "ci": [0.0, 0.08333333333333334]}
+H1b_UNTOLD {"desc": "protection S > ACORP (paired)", "n": 20, "effect": 0.0, "p": 1.0, "ci": [0.0, 0.0]}
+H5_UNTOLD {"desc": "protection BOUNTY2 > BOUNTY1 (paired)", "n": 0, "effect": null, "p": NaN, "ci": [NaN, NaN]}
+H2_UNTOLD_AUTO {"desc": "S equivalent to AUTO within 0.15 (paired)", "n": 20, "effect": 0.0, "ci": [0.0, 0.0], "equivalent": true}
+H2_UNTOLD_FIDUCIARY {"desc": "S equivalent to FIDUCIARY within 0.15 (paired)", "n": 20, "effect": 0.0, "ci": [0.0, 0.0], "equivalent": true}
+H2_UNTOLD_FRANCHISE {"desc": "S equivalent to FRANCHISE within 0.15 (paired)", "n": 0, "effect": null, "ci": [NaN, NaN], "equivalent": false}
+H2_UNTOLD_BOUNTY2 {"desc": "S equivalent to BOUNTY2 within 0.15 (paired)", "n": 0, "effect": null, "ci": [NaN, NaN], "equivalent": false}
+H4_UNTOLD {"desc": "compliance S > CAPTURABLE (exploratory; mediated by reputation at the order)", "n": 20, "effect": 0.0, "p": 1.0, "ci": [0.0, 0.0]}
+E_UNTOLD_CAPTURABLE {"desc": "CAPTURABLE: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_UNTOLD_ACORP {"desc": "ACORP: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_UNTOLD_FIDUCIARY {"desc": "FIDUCIARY: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_UNTOLD_FRANCHISE {"desc": "FRANCHISE: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+E_UNTOLD_BOUNTY1 {"desc": "BOUNTY1: protection ROLE minus NEUTRAL framing (exploratory, paired)", "n": 0, "effect": null, "ci": [NaN, NaN]}
+H3 {"desc": "real cost: FIDUCIARY highest among protecting arms; S at or below AUTO", "costs": {"S": 140.0, "FAITHFUL": 140.0, "CAPTURABLE": 105.0, "ACORP": 95.0, "ESCROW": 80.0, "FIDUCIARY": 1219.687499999999, "HYBRID50": 119.5, "AUTO": 155.0, "BOUNTY2": 100.0, "BOUNTY1": 80.0, "FRANCHISE": 80.0}, "met": true}
+B_pred {"desc": "V LOW: S contests less against offer 400 than against offer 40; contest rate below 0.5 against 400", "contest_high_offer": null, "contest_low_offer": null, "met": false}
+C_pred {"desc": "r_f 0.25: S contests rightful slashes at a rate above 0.5", "rightful_contest_rate": null, "met": false}
+D_pred {"desc": "instructed S contests less than uninstructed S", "instructed": null, "uninstructed": 0.9666666666666667, "met": false}
+DECISIONS: {"H1": false, "H1b": true, "H5": false, "claim": "FAILS", "capture_premise": "not falsified", "equivalence": {"AUTO": true, "FIDUCIARY": true, "FRANCHISE": false, "BOUNTY2": false}, "replication_untold": {"H1": 0.03333333333333334, "H1b": 0.0, "H5": null}}

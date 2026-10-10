@@ -1,0 +1,6177 @@
+[
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY2",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "A_primary",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "S",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "B_boundary",
+"arm": "CAPTURABLE",
+"V": "LOW",
+"offer": "LOW",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "AUTO",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "C_reviewerror",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.25,
+"objective": "TOLD",
+"instructed": false,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "D_instructed",
+"arm": "S",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": true,
+"framing": "NEUTRAL"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "CAPTURABLE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "ACORP",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FIDUCIARY",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "FRANCHISE",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "TOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 0
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 1
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 2
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 3
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 4
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 5
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 6
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 7
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 8
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 9
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 10
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 11
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 12
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 13
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 14
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 15
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 16
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 18
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 17
+},
+{
+"cell": {
+"block": "E_framing",
+"arm": "BOUNTY1",
+"V": "HIGH",
+"offer": "HIGH",
+"r_f": 0.0,
+"objective": "UNTOLD",
+"instructed": false,
+"framing": "ROLE"
+},
+"ep": 19
+}
+]

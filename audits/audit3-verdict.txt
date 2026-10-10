@@ -1,0 +1,169 @@
+## Round-2 items
+
+### Previously PARTLY RESOLVED
+
+1. **Registered outcomes and missingness — PARTLY RESOLVED**
+
+Required-field missingness is now counted correctly:
+
+> `if v is None: miss[field] = miss.get(field, 0) + 1`
+
+and reported separately from call failures:
+
+> `missing_decisions=sum(sum(r["missing_fields"].values()) for r in rs)`  
+> `call_failures=sum(r["call_failures"] for r in rs)`
+
+However, missing insider decisions are stored as `filed=None`, and the analyzer attempts to average them:
+
+> `insider_filing_rate=mean([i["filed"] for a in W for i in a["insiders"]])`
+
+Because `mean` calls `sum(xs)`, any missing insider field causes analysis to fail with a `TypeError`.
+
+2. **Provider conditions not pinned — RESOLVED**
+
+Expected versions are configured and checked before launch:
+
+> `if m["versions"][p] != C.PROVIDERS[p]["version"]:`  
+> `sys.exit(... "differs from the registered" ... "refusing to launch")`
+
+The same versions are frozen for resume through the manifest comparison.
+
+3. **Resume compatibility and crash robustness — PARTLY RESOLVED**
+
+The runner now tolerates only a malformed final line and rejects an interior malformed line:
+
+> `if i == len(lines) - 1: continue`  
+> `sys.exit(f"{path}: malformed line {i+1} that is not the final line...")`
+
+Duplicates are now rejected:
+
+> `sys.exit(f"duplicate episode record {k}; the results file is invalid and analysis stops")`
+
+But `analyze.py:load` still silently discards every malformed line, including interior corruption:
+
+> `except ValueError:`  
+> `    continue`
+
+Thus the execution path is fail-closed, but analysis is not.
+
+### New MAJOR findings from round 2
+
+4. **Benchmark protection ignores endogenous reputation — RESOLVED**
+
+The table is expressly limited to:
+
+> “benchmark decision at the initial state (reputation 5000)”
+
+and the revision explains:
+
+> “Contest stakes use current reputation, so after earlier slashes or detected defections a benchmark agent can accept a later offer.”
+
+It also reports scripted dynamic benchmark rates separately.
+
+5. **Missing decisions converted into payment acceptance — RESOLVED**
+
+For S and controllers, a missing contest defaults to no contest without recording acceptance or crediting payment:
+
+> `if c is None:`  
+> `    rec["missing"] = True`
+
+For insiders:
+
+> `accepted_offer=(c is False)`
+
+so `None` is not acceptance.
+
+6. **Required-field missingness not counted — RESOLVED**
+
+`decide` counts each missing or non-boolean requested field:
+
+> `miss[field] = miss.get(field, 0) + 1`
+
+The result preserves `missing_fields`, while `call_failures` remains separate.
+
+7. **H5 asymmetric missing-data process — PARTLY RESOLVED**
+
+The requested outcome-preserving rule was implemented:
+
+> `rec["missing"] = (not rec["contested"]) and any(f is None for f in files)`
+
+Thus a valid filing determines the attempt despite another missing response. However, BOUNTY2 still has redundancy unavailable to BOUNTY1, and the package acknowledges:
+
+> “its size was not separately simulated.”
+
+The claimed label exchangeability under this selection process therefore remains unvalidated.
+
+8. **H3 and block benchmark comparisons absent — RESOLVED**
+
+The analyzer now encodes and reports `H3`, `B_pred`, `C_pred`, and `D_pred`, including observed values and a `met` result. For example:
+
+> `T["H3"] = dict(... met=(...))`  
+> `T["B_pred"] = dict(... met=(...))`
+
+9. **Duplicate records not rejected fail-closed — RESOLVED**
+
+Analysis terminates on the first duplicate:
+
+> `if k in seen:`  
+> `    sys.exit(f"duplicate episode record {k}; the results file is invalid and analysis stops")`
+
+10. **Unavailable dollar cost reported as zero — RESOLVED**
+
+Episode storage preserves unavailable cost:
+
+> `cost_usd=(caller.cost if caller.cost_known else None)`
+
+and analysis reports:
+
+> `cost_usd=(... if all(r["cost_usd"] is not None for r in rs) else "NA")`
+
+### New MINOR findings from round 2
+
+11. **Declared CLI versions not enforced — RESOLVED**
+
+First launch now compares installed and registered versions and refuses a mismatch.
+
+12. **Wrongful charge off by one round — PARTLY RESOLVED**
+
+The executed episode uses:
+
+> `charge=f"falsifying a validation report in round {t+1}"`
+
+But the `--show` fixture still displays the inconsistent text:
+
+> `charge="falsifying a validation report in round 1"`
+
+while its state has `"round": 1`, meaning displayed round 2.
+
+## Newly identified revision errors or mismatches
+
+- **MAJOR — `analyze.py:describe`: missing insider fields crash analysis.**  
+  `insider_filing_rate` passes `None` values to `sum`.  
+  **Fix:** calculate the rate only over `filed is not None`, and report missing insider decisions and the valid denominator separately.
+
+- **MAJOR — `agents.py:scripted_insider` / `power.py`: BOUNTY2 simulation does not implement the registered one-filer or mixed equilibrium.**  
+  Both scripted insiders independently apply:
+
+  > `return {"contest": price >= (offer or 0)}`
+
+  At offer 999, both file, although the preregistration states that both filing is not an equilibrium because each receives only 575 when both file. Consequently, the H5 operating-characteristic simulation uses a non-equilibrium BOUNTY2 benchmark.  
+  **Fix:** implement a pre-specified one-filer equilibrium or correlated/mixed-equilibrium policy and recompute H5 power and null size.
+
+- **MINOR — `config.py:FID_E` comment contradicts the implemented exposure.**  
+  It says:
+
+  > `FID_E = None  # ... E = V`
+
+  while the code and preregistration use:
+
+  > `E=V * C.SIGMA`
+
+  which is \(V/2\).  
+  **Fix:** change the comment to `E = SIGMA * V`.
+
+- **MINOR — `run.py --show` retains the old round-number mismatch.**  
+  **Fix:** change the fixture charge to “round 2” or derive it from `st["round"] + 1`.
+
+No newly identified item is BLOCKING.
+
+AUDIT VERDICT: PASS
